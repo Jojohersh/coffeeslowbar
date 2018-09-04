@@ -1,0 +1,31 @@
+body {
+  font-family: "Nunito";
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+.logoBar {
+  /* width: auto; */
+  background-color: white;
+}
+div.logoBar h1 {
+  font-size: 5em;
+  margin: 0;
+}
+div.logoBar h4 {
+  margin-left: 40px;
+  margin-top: 0px;
+}
+.farmPicture img{
+  width: 100%;
+  height: auto;
+}
+#flag {
+  position: relative;
+  top: -120px;
+  border-radius: 50%;
+  width: 20%;
+  padding: 0;
+  border: 5px solid white;
+}
