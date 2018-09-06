@@ -85,12 +85,17 @@ div.pair h4 {
 .twoColGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 6vmax;
+  grid-auto-rows: minmax(max-content, 6vmax);
   grid-gap: 3%;
   grid-row-gap: 3%;
   margin: 3%;
   padding: 20px;
   font-size: 1.5vmax;
+}
+@media screen and (max-width: 450px){
+  .twoColGrid {
+    grid-template-columns: 1fr;
+  }
 }
 .threeColgrid {
   width: 100%;
