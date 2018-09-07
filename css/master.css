@@ -22,6 +22,9 @@ h4 {
   margin: 0;
   font-size: 1vmax;
 }
+p {
+  font-size: 1.25em;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -118,9 +121,40 @@ div.pair h4 {
 .note img {
   border-radius: 50%;
   border: 3px;
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
 }
-#Origin {
-  background-color: #aaaaaa;
+.note p {
+  font-size: 1.5em;
+}
+.country {
+  height: 100%;
+  background:
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url(../resources/coffeeBags.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kenyaInfo {
+  color: white;
+  padding: 14% 20%;
+}
+.farm {
+  height: 100%;
+  background:
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("../resources/Mutheka_Grower.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.farmInfo {
+  color: white;
+  padding: 15% 15% 15% 15%;
+  /* margin: 10%; */
+}
+.farmInfo p {
+  font-size: 1.25em;
+  /* margin-bottom: 5%; */
 }
