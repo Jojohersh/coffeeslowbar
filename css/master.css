@@ -45,8 +45,6 @@ a:hover {
   max-height: 120px;
   max-width: 120px;
 }
-.pair {
-}
 div.pair h1 {
   margin-top: 0;
   margin-bottom: 0;
@@ -98,7 +96,6 @@ div.pair h4 {
   }
 }
 .threeColgrid {
-  width: 100%;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-auto-rows: minmax(50px, max-content);
