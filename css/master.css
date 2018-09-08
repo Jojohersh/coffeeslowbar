@@ -6,32 +6,40 @@ body {
   padding: 0;
   overflow: auto;
 }
+
 h1 {
   font-size: 4vmax;
   margin: 0;
 }
+
 h2 {
   margin: 0;
   font-size: 2vmax;
 }
+
 h3 {
   margin: 0;
   font-size: 1.5vmax;
 }
+
 h4 {
   margin: 0;
   font-size: 1vmax;
 }
+
 p {
   font-size: 1.25em;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 a:hover {
   color: #666666;
 }
+
 .logoBar {
   display: flex;
   align-items: center;
@@ -40,6 +48,7 @@ a:hover {
   padding-top: 14px;
   padding-bottom: 14px;
 }
+
 .logo {
   margin-right: 2%;
   border-radius: 50%;
@@ -48,24 +57,30 @@ a:hover {
   max-height: 120px;
   max-width: 120px;
 }
+
 div.pair h1 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 div.pair h2 {
   margin-left: 2vmax;
 }
+
 div.pair h3 {
   margin-left: 2vmax;
 }
+
 div.pair h4 {
   margin-left: 6vmax;
   margin-top: -1vmax;
 }
-.farmPicture img{
+
+.farmPicture img {
   width: 100%;
   height: auto;
 }
+
 #flag {
   display: block;
   position: relative;
@@ -80,9 +95,11 @@ div.pair h4 {
   margin-right: auto;
   margin-bottom: -60px;
 }
+
 .coffeeInfo {
   margin: 3% 7%;
 }
+
 .twoColGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -93,68 +110,86 @@ div.pair h4 {
   padding: 20px;
   font-size: 1.5vmax;
 }
-@media screen and (max-width: 450px){
+
+@media screen and (max-width: 450px) {
   .twoColGrid {
     grid-template-columns: 1fr;
   }
 }
+
 .threeColgrid {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-auto-rows: minmax(50px, max-content);
-
   margin: 3%;
   padding: 20px;
   font-size: 1.5vmax;
 }
+
 .notesHeader {
   margin-left: auto;
   margin-right: auto;
   grid-column: 1 / 4;
 }
+
 .note {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: auto;
 }
+
 .note img {
   border-radius: 50%;
   border: 3px;
   width: 50%;
   height: 50%;
 }
+
 .note p {
   font-size: 1.5em;
 }
+
 .country {
   height: 100%;
-  background:
-    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-    url(../resources/coffeeBags.jpg);
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../resources/coffeeBags.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .kenyaInfo {
   color: white;
   padding: 14% 20%;
 }
+
 .farm {
   height: 100%;
-  background:
-    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-    url("../resources/Mutheka_Grower.jpg");
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../resources/Mutheka_Grower.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .farmInfo {
   color: white;
   padding: 14% 20%;
   /* margin: 10%; */
 }
+
 .farmInfo p {
   font-size: 1.25em;
   /* margin-bottom: 5%; */
+}
+
+.brewing {
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../resources/kalita.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.brewingInfo {
+  color: white;
+  padding: 14% 20%;
 }
