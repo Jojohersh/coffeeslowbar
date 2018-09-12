@@ -117,9 +117,9 @@ div.pair h4 {
   }
 }
 
-.threeColgrid {
+.notesGrid {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-auto-columns: 1fr;
   grid-auto-rows: minmax(50px, max-content);
   margin: 3%;
   padding: 20px;
@@ -152,15 +152,10 @@ div.pair h4 {
 
 .country {
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../resources/coffeeBags.jpg);
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../resources/coffeeBags.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.kenyaInfo {
-  color: white;
-  padding: 14% 20%;
 }
 
 .farm {
@@ -171,17 +166,6 @@ div.pair h4 {
   background-repeat: no-repeat;
 }
 
-.farmInfo {
-  color: white;
-  padding: 14% 20%;
-  /* margin: 10%; */
-}
-
-.farmInfo p {
-  font-size: 1.25em;
-  /* margin-bottom: 5%; */
-}
-
 .brewing {
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../resources/kalita.jpg");
@@ -189,7 +173,8 @@ div.pair h4 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.brewingInfo {
+
+.infoSection {
   color: white;
   padding: 14% 20%;
 }
